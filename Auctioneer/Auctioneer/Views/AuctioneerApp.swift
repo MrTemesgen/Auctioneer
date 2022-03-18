@@ -9,9 +9,10 @@ import SwiftUI
 
 @main
 struct AuctioneerApp: App {
+    @StateObject var users: [User] = []
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView().environmentObject(users)
         }
     }
 }
