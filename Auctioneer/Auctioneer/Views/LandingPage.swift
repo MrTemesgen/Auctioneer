@@ -22,8 +22,11 @@ struct HomePageView: View{
                 Button("Login"){
                     //Go to the sign up view.
                 }.padding()
-                NavigationLink(destination: DrawingView(), label: {
-                    Text("Drawing Page")
+                NavigationLink(destination: ProfileView(), label: {
+                    Text("Test Profile Page")
+                })
+                NavigationLink(destination: AuctionView(), label: {
+                    Text("Test Auction Page")
                 })
             }
             

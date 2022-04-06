@@ -15,7 +15,7 @@ struct SignupView: View {
     @FocusState var passwordFieldIsFocused:Bool
     
     var body: some View{
-       
+        
         Form{
             HStack {
                     Spacer()

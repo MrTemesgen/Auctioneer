@@ -14,12 +14,14 @@ class User: ObservableObject{
     var Password:String = ""
     var Avatar:Image
     var ArtWorks:[Image]
+    var Money:UInt16
     
     init(UserName:String, Password:String, Avatar:Image){
         self.UserName = UserName
         self.Password = Password
         ArtWorks = []
         self.Avatar = Avatar
+        self.Money = 100
     }
     
     func addImage(work:Image){
