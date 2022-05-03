@@ -9,28 +9,25 @@ import Foundation
 import SwiftUI
 
 struct HomePageView: View{
-    
+    @EnvironmentObject var auctionList:AuctionList
+    @EnvironmentObject var userList:UserList
     
     var body: some View{
-        NavigationView{
-            VStack(alignment: .center){
-                Image("Auctioneer").resizable().aspectRatio(contentMode: .fit)
-                
-                NavigationLink(destination: SignupView(), label: {
-                    Text("Sign Up")
-                })
-                Button("Login"){
-                    //Go to the sign up view.
-                }.padding()
-                NavigationLink(destination: ProfileView(), label: {
-                    Text("Test Profile Page")
-                })
-                NavigationLink(destination: AuctionView(), label: {
-                    Text("Test Auction Page")
-                })
-            }
+        
+        VStack(alignment: .center){
+            Image("Auctioneer").resizable().aspectRatio(contentMode: .fit)
             
-        }
+            NavigationLink(destination: SignupView().environmentObject(auctionList).environmentObject(userList), label: {
+                Text("Sign Up")
+            }).padding()
+            NavigationLink(destination: LoginView().environmentObject(auctionList).environmentObject(userList), label: {
+                Text("Login")
+            }).padding()
+            
+            
+        }.navigationBarBackButtonHidden(true).navigationBarHidden(true )
+        
+        
     }
 }
 

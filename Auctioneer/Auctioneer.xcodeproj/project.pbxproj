@@ -9,9 +9,19 @@
 /* Begin PBXBuildFile section */
 		1533219627E16B0F00631621 /* AvatarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1533219527E16B0F00631621 /* AvatarView.swift */; };
 		1533219827E6855400631621 /* UserList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1533219727E6855400631621 /* UserList.swift */; };
+		157B224328189D5000AA9FFD /* ImageWrap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 157B224228189D5000AA9FFD /* ImageWrap.swift */; };
+		157B22452819E6A900AA9FFD /* AuctionItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 157B22442819E6A900AA9FFD /* AuctionItem.swift */; };
+		157B22472819E9C500AA9FFD /* AuctionList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 157B22462819E9C500AA9FFD /* AuctionList.swift */; };
+		157B22492819EA2C00AA9FFD /* Auction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 157B22482819EA2C00AA9FFD /* Auction.swift */; };
+		157B224B281A460000AA9FFD /* GalleryPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 157B224A281A460000AA9FFD /* GalleryPage.swift */; };
 		159D774727FE0DFD0073DA5F /* AuctionPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 159D774627FE0DFD0073DA5F /* AuctionPage.swift */; };
 		15ABEC6727DFBB8100053B82 /* Signup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15ABEC6627DFBB8100053B82 /* Signup.swift */; };
 		15ABEC6B27DFBEC100053B82 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15ABEC6A27DFBEC100053B82 /* User.swift */; };
+		15AD15D3281C8D6B00A3CB19 /* AuctionGallery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15AD15D2281C8D6B00A3CB19 /* AuctionGallery.swift */; };
+		15AD15D7281E42D600A3CB19 /* LoginPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15AD15D6281E42D500A3CB19 /* LoginPage.swift */; };
+		15AD15D9281E560400A3CB19 /* NewDrawing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15AD15D8281E560400A3CB19 /* NewDrawing.swift */; };
+		15AD15DB281F994900A3CB19 /* UsersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15AD15DA281F994900A3CB19 /* UsersView.swift */; };
+		15AD15DD281F9ACD00A3CB19 /* Vouyer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15AD15DC281F9ACD00A3CB19 /* Vouyer.swift */; };
 		15CE5B8A27F7D07800AE81F5 /* DrawingPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15CE5B8927F7D07800AE81F5 /* DrawingPage.swift */; };
 		15CE5B8C27F91EE900AE81F5 /* ProfilePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15CE5B8B27F91EE900AE81F5 /* ProfilePage.swift */; };
 		15D752EC27DD340A006DE5EA /* AuctioneerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15D752EB27DD340A006DE5EA /* AuctioneerApp.swift */; };
@@ -24,9 +34,19 @@
 /* Begin PBXFileReference section */
 		1533219527E16B0F00631621 /* AvatarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarView.swift; sourceTree = "<group>"; };
 		1533219727E6855400631621 /* UserList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserList.swift; sourceTree = "<group>"; };
+		157B224228189D5000AA9FFD /* ImageWrap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageWrap.swift; sourceTree = "<group>"; };
+		157B22442819E6A900AA9FFD /* AuctionItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuctionItem.swift; sourceTree = "<group>"; };
+		157B22462819E9C500AA9FFD /* AuctionList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuctionList.swift; sourceTree = "<group>"; };
+		157B22482819EA2C00AA9FFD /* Auction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Auction.swift; sourceTree = "<group>"; };
+		157B224A281A460000AA9FFD /* GalleryPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryPage.swift; sourceTree = "<group>"; };
 		159D774627FE0DFD0073DA5F /* AuctionPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuctionPage.swift; sourceTree = "<group>"; };
 		15ABEC6627DFBB8100053B82 /* Signup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Signup.swift; sourceTree = "<group>"; };
 		15ABEC6A27DFBEC100053B82 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		15AD15D2281C8D6B00A3CB19 /* AuctionGallery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuctionGallery.swift; sourceTree = "<group>"; };
+		15AD15D6281E42D500A3CB19 /* LoginPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPage.swift; sourceTree = "<group>"; };
+		15AD15D8281E560400A3CB19 /* NewDrawing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewDrawing.swift; sourceTree = "<group>"; };
+		15AD15DA281F994900A3CB19 /* UsersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersView.swift; sourceTree = "<group>"; };
+		15AD15DC281F9ACD00A3CB19 /* Vouyer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vouyer.swift; sourceTree = "<group>"; };
 		15CE5B8927F7D07800AE81F5 /* DrawingPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingPage.swift; sourceTree = "<group>"; };
 		15CE5B8B27F91EE900AE81F5 /* ProfilePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilePage.swift; sourceTree = "<group>"; };
 		15D752E827DD340A006DE5EA /* Auctioneer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Auctioneer.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -53,11 +73,18 @@
 			children = (
 				15D752ED27DD340A006DE5EA /* ContentView.swift */,
 				15D752F927DD63F0006DE5EA /* LandingPage.swift */,
-				1533219527E16B0F00631621 /* AvatarView.swift */,
+				15AD15D6281E42D500A3CB19 /* LoginPage.swift */,
 				15ABEC6627DFBB8100053B82 /* Signup.swift */,
-				15CE5B8927F7D07800AE81F5 /* DrawingPage.swift */,
+				1533219527E16B0F00631621 /* AvatarView.swift */,
 				15CE5B8B27F91EE900AE81F5 /* ProfilePage.swift */,
+				15CE5B8927F7D07800AE81F5 /* DrawingPage.swift */,
+				157B224A281A460000AA9FFD /* GalleryPage.swift */,
+				15AD15D2281C8D6B00A3CB19 /* AuctionGallery.swift */,
 				159D774627FE0DFD0073DA5F /* AuctionPage.swift */,
+				157B22442819E6A900AA9FFD /* AuctionItem.swift */,
+				15AD15D8281E560400A3CB19 /* NewDrawing.swift */,
+				15AD15DA281F994900A3CB19 /* UsersView.swift */,
+				15AD15DC281F9ACD00A3CB19 /* Vouyer.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -67,6 +94,9 @@
 			children = (
 				15ABEC6A27DFBEC100053B82 /* User.swift */,
 				1533219727E6855400631621 /* UserList.swift */,
+				157B224228189D5000AA9FFD /* ImageWrap.swift */,
+				157B22462819E9C500AA9FFD /* AuctionList.swift */,
+				157B22482819EA2C00AA9FFD /* Auction.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -177,15 +207,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15AD15DD281F9ACD00A3CB19 /* Vouyer.swift in Sources */,
 				15D752EE27DD340A006DE5EA /* ContentView.swift in Sources */,
 				1533219627E16B0F00631621 /* AvatarView.swift in Sources */,
+				15AD15D9281E560400A3CB19 /* NewDrawing.swift in Sources */,
+				157B224328189D5000AA9FFD /* ImageWrap.swift in Sources */,
 				159D774727FE0DFD0073DA5F /* AuctionPage.swift in Sources */,
+				157B22452819E6A900AA9FFD /* AuctionItem.swift in Sources */,
 				15ABEC6727DFBB8100053B82 /* Signup.swift in Sources */,
 				15D752EC27DD340A006DE5EA /* AuctioneerApp.swift in Sources */,
 				15ABEC6B27DFBEC100053B82 /* User.swift in Sources */,
+				157B224B281A460000AA9FFD /* GalleryPage.swift in Sources */,
+				15AD15D7281E42D600A3CB19 /* LoginPage.swift in Sources */,
 				15CE5B8A27F7D07800AE81F5 /* DrawingPage.swift in Sources */,
 				1533219827E6855400631621 /* UserList.swift in Sources */,
+				157B22472819E9C500AA9FFD /* AuctionList.swift in Sources */,
+				15AD15DB281F994900A3CB19 /* UsersView.swift in Sources */,
 				15CE5B8C27F91EE900AE81F5 /* ProfilePage.swift in Sources */,
+				157B22492819EA2C00AA9FFD /* Auction.swift in Sources */,
+				15AD15D3281C8D6B00A3CB19 /* AuctionGallery.swift in Sources */,
 				15D752FA27DD63F0006DE5EA /* LandingPage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

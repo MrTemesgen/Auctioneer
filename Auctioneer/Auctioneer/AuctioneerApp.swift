@@ -9,10 +9,12 @@ import SwiftUI
 
 @main
 struct AuctioneerApp: App {
-   @StateObject var users: UserList  = UserList()
+    
+    @StateObject var auctions:AuctionList = AuctionList()
+    @StateObject var userList:UserList = UserList()
     var body: some Scene {
         WindowGroup {
-            ContentView().environmentObject(users)
+            ContentView().environmentObject(auctions).environmentObject(userList)
         }
     }
 }

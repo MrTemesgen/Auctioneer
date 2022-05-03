@@ -1,37 +1,16 @@
 //
-//  Profile.swift
+//  Vouyer.swift
 //  Auctioneer
 //
-//  Created by Abreham Temesgen on 4/2/22.
+//  Created by Abreham Temesgen on 5/2/22.
 //
 
 import Foundation
 import SwiftUI
 
 
-
-
-struct ProfileView: View {
+struct Vouyer: View{
     @State var user:User
-    @EnvironmentObject var auctionList:AuctionList
-    @EnvironmentObject var userList:UserList
-    var body: some View{
-        TabView{
-            
-            ProfileViewMain(user: user).environmentObject(auctionList).environmentObject(userList).tabItem{Label("Home", systemImage: "person.circle")}
-            DrawingView(user:user).tabItem{Label("Draw", systemImage: "paintbrush")}
-            AuctionGallery(user: user).environmentObject(auctionList).tabItem{Label("Auctions", systemImage: "dollarsign.square")}
-            UsersView().environmentObject(userList).tabItem{Label("Users", systemImage: "person.2")}
-        }
-        
-    }
-}
-
-struct ProfileViewMain: View{
-    @State var user:User
-    @EnvironmentObject var auctionList:AuctionList
-    @EnvironmentObject var userList:UserList
-    @State private var showingAuction = false
     var fontSize:CGFloat = 15.0
     var body: some View{
         
@@ -79,9 +58,7 @@ struct ProfileViewMain: View{
                 
                 
             }.padding()
-            NavigationLink(destination: GalleryView(user:user).environmentObject(auctionList).environmentObject(userList), label: {
-                Text("Auction Your art").font(Font.subheadline).foregroundColor(Color.accentColor)
-            })
+
             HStack{
                 Spacer()
                 Text("\(user.UserName)'s Montage").font(Font.headline)
@@ -104,15 +81,8 @@ struct ProfileViewMain: View{
                 }
             }
             
-            HStack{Spacer()
-                NavigationLink(destination: HomePageView().environmentObject(user).environmentObject(auctionList).environmentObject(userList)){
-                    Text("Sign Out")
-                }
-                Spacer()}
-        }.navigationBarHidden(true).navigationBarBackButtonHidden(true)
+        }
         
         
     }
 }
-
-

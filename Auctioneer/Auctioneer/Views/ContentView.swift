@@ -7,11 +7,15 @@
 
 import SwiftUI
 
+
 struct ContentView: View {
-    //The origin of our app.
-    //show the logo and a button for the login/signup
+    @EnvironmentObject var auctionList:AuctionList
+    @EnvironmentObject var userList:UserList
+    
     var body: some View {
-        HomePageView()
+        NavigationView {
+            HomePageView().environmentObject(auctionList).environmentObject(userList)
+        }
     }
 }
 
@@ -19,6 +23,9 @@ struct ContentView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        //create a null user
+        ContentView().environmentObject(AuctionList())
+            .environmentObject(User(UserName: "", Password: "", Avatar: Image("1"))).environmentObject(UserList())
+            .previewInterfaceOrientation(.portrait)
     }
 }

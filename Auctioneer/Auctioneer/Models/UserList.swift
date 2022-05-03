@@ -8,9 +8,9 @@
 import Foundation
 
 
-class UserList:ObservableObject{
-    @Published private var users:[User]
-    
+class UserList:ObservableObject, Identifiable{
+    @Published  var users:[User]
+    let id = UUID()
     init (){
         users = []
     }
